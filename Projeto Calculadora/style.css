@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: url(https://i.pinimg.com/originals/be/b2/c2/beb2c2837db72e15907eef50ee46797b.gif); 
+    height: 695px;
+    width: 100%;
+    text-align: center;  
+ 
+}
+
+.titulo{
+    color: #fb6f92!important;
+    font-family: "Kaushan Script", cursive;
+    font-size: 75px;  
+    
+}
+
+.calculadora{
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    top: 30%;
+    left: 45%;
+    border-radius: 10%;
+    padding: 15px;
+   
+}
+
+.texto{
+    color: #e362bc;
+    font-family: "Playfair Display", serif;
+}
+
+.botao{
+    width: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer; /* Mudar o mouse pra mãozinha  */
+    background-color: white;
+    margin: 3px;
+    opacity: 0.8;
+   border-radius: 3px ;
+   border-color: white;
+   
+}
+
+.botao:hover{
+    background-color: #fb6f92;
+    color: white;
+}
+
+#resultado{
+    background-color: #fb6f92;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 25px;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
