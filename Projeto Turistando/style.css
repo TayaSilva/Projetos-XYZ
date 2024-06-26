@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section:nth-of-type(1){
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/35872937-ai-gerado-surpreendente-por-do-sol-panorama-luxo-recorrer-vilas-marinha-com-suave-conduziu-luzes-debaixo-colorida-ceu-sonhe-por-do-sol-sobre-tropical-mar-fantastico-natureza-cenario-gratis-foto.jpg);
+    height: 700px;
+}
+section:nth-of-type(3){
+    background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/argentinalead.jpg?w=1600&h=900);
+    height: 700px;
+}
+section:nth-of-type(5){
+    background-image: url(https://blog.123milhas.com/wp-content/uploads/2022/12/conheca-os-lugares-com-as-melhores-vistas-do-rio-de-janeiro-conexao123.jpg);
+    height: 700px;
+}
+section:nth-of-type(7){
+    background-image: url(https://www.refugiosnointerior.com.br/sistema/_lib/file/img/fotos_cidade/9668/sao-paulo-capital.jpg);
+    height: 700px;
+}
+
+.container-cards{
+    background-color: white rgba(10,23,55,0.5);
+    margin: 20px;
+    justify-content: center;
+    width: 70%;
+    
+}
+.container-cards-outros{
+    background-color: white rgba(10,23,55,0.5);
+    margin: 20px;
+    justify-content: center;
+    width: 70%;
+    /* margin-top: 800px; */
+}
+
+.card-style{
+    margin-right: 40px;
+    
+}
+
+.card-img-top{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.nav{
+    background-color: white rgba(10,23,55,0.5) ;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.nav-link:hover{
+    color: black;
+    transition: 1s;
+}
+
+.titulo{
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+    
+   
+}
+
+
+.card-centro{
+   margin-top: -120px;
+}
